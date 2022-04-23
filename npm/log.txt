@@ -1,0 +1,26 @@
+npm install lodash
+
+to use third party packages (modules)
+
+best practice
+var _ = require('lodash');
+
+-------------------
+works as command line interface 
+install globally 
+
+npm install -g nodemon
+
+nodemon demo.js 
+* automatically executes the changes 
+-------------------
+package.json
+
+create it: 
+npm init
+
+added dependencies 
+
+npm init --yes
+all the defaults 
+------------------
