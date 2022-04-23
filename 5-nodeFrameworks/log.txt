@@ -42,5 +42,5 @@ server.address().port
 ---- The object is created and then it's used by the callback in an async matter
 
 app.use(__dirname)
-This to serve the index.html and the entire content in the directory (with seevwr.js)
+This to serve the index.html and the entire content in the directory (with server.js)
 
