@@ -1,3 +1,4 @@
+writing to a file needs a string not an object
 JSON.stringfy(data_object)
 
 NOTE

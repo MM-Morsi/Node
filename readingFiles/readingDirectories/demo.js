@@ -9,12 +9,14 @@ fs.readdir('c:/', (err, data) => {
     }
 });
 
-// Writing files 
-
+// Writing files to the file system
 var data = {
     name: 'John'
 }
-fs.writeFile('c:/Users/moham/Documents/Web/Node/readingFiles/readingDirectories/test.txt', JSON.stringify(data), (err) => {
+
+let path = 'c:/Users/moham/Documents/Web/Node/readingFiles/readingDirectories/test.txt';
+
+fs.writeFile(path, JSON.stringify(data), (err) => {
     if (err) {
         console.log('error', err);
     } else {
