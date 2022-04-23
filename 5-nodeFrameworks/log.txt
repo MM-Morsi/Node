@@ -1,0 +1,46 @@
+apis - http servers 
+serve static files 
+
+use WebAPI
+create users - serve list of users 
+
+Express - Sails (ORM) - Koa (most modern)
+
+Express.js
+* web applications - web api 
+* applications: run in the browser + talk to servers 
+    - back end and front end both 
+* Runs within node (backend) but contributes to both backend and frontend 
+* Express has a lot of features - community support
+
+Socket.io
+* Server can send request to the client 
+* real time - bi directional event based communication 
+* Notification from server to client @ events 
+* client side and server side libraries --> api 
+* event driven 
+
+Static content vs Dynamic content 
+* dynamic is served through api 
+* serve dynamic web pages (serving on the server itself)
+
+install express with npm 
+* to save dependencies --> create package.json
+* npm instal -s express
+    -s is used to save the package as dependency in the package.json file 
+_______________________________________________________________________________
+To run the server: 
+localhost:3000 (3000 is the port number given in app.listen(port-number))
+
+Listen callback
+Tell me when the server starts running
+port number dynamically:
+server = app.listen(3000, callback) and use inside the callback: 
+server.address().port
+-- app.listen() returns an object with all server and its properties 
+-- we can use the object inside the callback before/while its creation ?! How come ?!
+---- The object is created and then it's used by the callback in an async matter
+
+app.use(__dirname)
+This to serve the index.html and the entire content in the directory (with seevwr.js)
+
