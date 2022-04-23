@@ -1,0 +1,13 @@
+spesify the format
+'utf-8'
+
+readFile method 
+* Async
+* String not an object
+* can't access the properties 
+* to solve this
+var data = JSON.parse(data)
+
+require method
+* object --> can access using the dot notation (access properties)
+* data.name 
