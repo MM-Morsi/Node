@@ -1,0 +1,4 @@
+JSON.stringfy(data_object)
+
+NOTE
+using an async without a callback is deprecated 
